@@ -1,0 +1,39 @@
+{
+  "name": "pouchdb-ensure",
+  "version": "1.0.0",
+  "description": "Creates a doc or updates it, but only when necessary.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fiatjaf/pouchdb-ensure.git"
+  },
+  "keywords": [
+    "pouchdb",
+    "pouchdb-plugin",
+    "ensure",
+    "sure",
+    "save",
+    "put",
+    "ddoc",
+    "design",
+    "doc"
+  ],
+  "author": "fiatjaf",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fiatjaf/pouchdb-ensure/issues"
+  },
+  "homepage": "https://github.com/fiatjaf/pouchdb-ensure#readme",
+  "dependencies": {
+    "deep-equal": "*"
+  },
+  "devDependencies": {
+    "memdown": "^1.2.0",
+    "pouchdb-adapter-leveldb": "^5.4.5",
+    "pouchdb-core": "^5.4.5",
+    "tape": "^4.6.0"
+  }
+}
